@@ -12,10 +12,10 @@ To test this example, clone this repository as follows:
 >
 >     $ git clone git@github.com:Gusn8/KotlinStudyJam.git
 
-Within IntelliJ IDEA:
+In IntelliJ IDEA:
 
 * File --> Open
-* You select the route where you made the 'clone' of the project.
+* You select the route where you made the 'clone' of the project, select and OK.
 * That's all and run examples.
 
 <a href="http://www.miramicodigo.com" target="_blank">@Gusn8</a>
