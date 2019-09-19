@@ -10,7 +10,7 @@ This is a repository with all the examples made in Kotlin Study Jam classes.
 ## Usage
 To test this example, clone this repository as follows:
 >
->     $ git clone git@github.com:Gusn8/KotlinStudyJam.git
+>     $ git clone git@github.com:lizarragadev/KotlinStudyJam.git
 
 In IntelliJ IDEA:
 
