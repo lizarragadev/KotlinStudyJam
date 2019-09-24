@@ -12,6 +12,7 @@ fun main() {
         }
     }
     println("La suma de las dos matrices es: ")
+
     for (row in sum) {
         for (column in row) {
             print("$column    ")
