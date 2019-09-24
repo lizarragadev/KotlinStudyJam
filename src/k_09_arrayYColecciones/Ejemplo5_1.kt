@@ -11,7 +11,7 @@ fun main() {
             sum[i][j] = firstMatrix[i][j] + secondMatrix[i][j]
         }
     }
-    println("Sum of two matrices is: ")
+    println("La suma de las dos matrices es: ")
     for (row in sum) {
         for (column in row) {
             print("$column    ")
