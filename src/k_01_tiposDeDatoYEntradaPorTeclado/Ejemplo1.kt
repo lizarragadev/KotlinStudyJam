@@ -1,5 +1,15 @@
 package k_01_tiposDeDatoYEntradaPorTeclado
 
+/**
+ * @author Gustavo Lizárraga
+ * @date 26/09/2019
+ *
+ * Ejemplo básico de creación de variables.
+ * VAR : Variable mutable.
+ * VAL : Variable inmutable.
+ *
+ * */
+
 fun main() {
     val valor1 = 4
     val valor2 = 2

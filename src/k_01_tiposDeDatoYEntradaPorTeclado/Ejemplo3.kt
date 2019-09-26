@@ -1,5 +1,15 @@
 package k_01_tiposDeDatoYEntradaPorTeclado
 
+/**
+ * @author Gustavo Lizárraga
+ * @date 26/09/2019
+ *
+ * Ejemplo básico de ingreso de datos desde teclado.
+ * readLine() -> Para lectura de datos de teclado.
+ * .toInt() -> Es el tipo de casting que se realiza en Kotlin, pueden ser: toString(), toDouble(), toString(), toChar(), etc.
+ *
+ * */
+
 fun main() {
     print("Ingrese numero 1: ")
     val v1 = readLine()!!.toInt()

@@ -1,5 +1,13 @@
 package k_01_tiposDeDatoYEntradaPorTeclado
 
+/**
+ * @author Gustavo Lizárraga
+ * @date 26/09/2019
+ *
+ * Ejemplo básico para calcular precio de productos.
+ *
+ * */
+
 fun main() {
     print("Ingrese el precio del producto:")
     val precio = readLine()!!.toDouble()
