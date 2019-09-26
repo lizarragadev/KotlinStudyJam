@@ -1,5 +1,13 @@
 package k_06_estructuraWhileDoWhile
 
+/**
+ * @author Gustavo Lizárraga
+ * @date 26/09/2019
+ *
+ * Ejercicio con DO WHILE con limite de tipo DOUBLE.
+ *
+ * */
+
 fun main() {
     var cant1 = 0
     var cant2 = 0

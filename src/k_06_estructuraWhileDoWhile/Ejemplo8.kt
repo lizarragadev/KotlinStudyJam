@@ -1,5 +1,13 @@
 package k_06_estructuraWhileDoWhile
 
+/**
+ * @author Gustavo Lizárraga
+ * @date 26/09/2019
+ *
+ * Fusión de manejo de DO WHILE juntamente con la estructura WHEN y sus condicionales.
+ *
+ * */
+
 fun main() {
     val num1 = 5
     val num2 = 9

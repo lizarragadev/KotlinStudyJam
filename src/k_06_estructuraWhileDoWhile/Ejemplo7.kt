@@ -1,5 +1,13 @@
 package k_06_estructuraWhileDoWhile
 
+/**
+ * @author Gustavo Lizárraga
+ * @date 26/09/2019
+ *
+ * Ejercicio de fusión con estructura WHEN y DO WHILE
+ *
+ * */
+
 fun main() {
     var cant = 0
     var cantMenor50 = 0

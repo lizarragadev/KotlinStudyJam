@@ -1,5 +1,13 @@
 package k_06_estructuraWhileDoWhile
 
+/**
+ * @author Gustavo Lizárraga
+ * @date 26/09/2019
+ *
+ * Ejemplo de creación y uso de estructura WHILE, con operaciones.
+ *
+ * */
+
 fun main() {
     print("Cuantas piezas procesará: ")
     val n = readLine()!!.toInt()
