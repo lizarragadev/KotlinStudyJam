@@ -1,5 +1,13 @@
 package k_05_estructuraFOR
 
+/**
+ * @author Gustavo Lizárraga
+ * @date 26/09/2019
+ *
+ * Ejercicio estructura FOR con cantidad ingresada desde teclado.
+ *
+ * */
+
 fun main() {
     var cant = 0
     print("Cuantos valores ingresará para analizar: ")

@@ -1,5 +1,13 @@
 package k_05_estructuraFOR
 
+/**
+ * @author Gustavo Lizárraga
+ * @date 26/09/2019
+ *
+ * Ejercicio estructura for.
+ *
+ * */
+
 fun main() {
     var mult3 = 0
     var mult5 = 0

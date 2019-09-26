@@ -1,5 +1,14 @@
 package k_05_estructuraFOR
 
+/**
+ * @author Gustavo Lizárraga
+ * @date 26/09/2019
+ *
+ * Ejemplo de uso de la estructura ciclica FOR con ingreso de datos y
+ * la condicional IF ELSE
+ *
+ * */
+
 fun main() {
     var aprobados = 0
     var reprobados = 0
