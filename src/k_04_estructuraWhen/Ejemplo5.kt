@@ -1,5 +1,13 @@
 package k_04_estructuraWhen
 
+/**
+ * @author Gustavo Lizárraga
+ * @date 26/09/2019
+ *
+ * Ejercicio utilizando la estructura WHEN.
+ *
+ * */
+
 fun main() {
     var cant1 = 0
     var cant2 = 0

@@ -1,5 +1,14 @@
 package k_04_estructuraWhen
 
+/**
+ * @author Gustavo Lizárraga
+ * @date 26/09/2019
+ *
+ * En la condición de la estructura when podemos realizar un operación booleana e incluso
+ * no es necesario un dato de entrada a la estructura WHEN.
+ *
+ * */
+
 fun main() {
     print("Ingrese nota 1: ")
     val n1 = readLine()!!.toInt()

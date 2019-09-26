@@ -1,5 +1,14 @@
 package k_04_estructuraWhen
 
+/**
+ * @author Gustavo Lizárraga
+ * @date 26/09/2019
+ *
+ * La estructura WHEN viene a reemplazar el SWITCH CASE que utilizabamos en Java
+ * se maneja de manera similar pero con mucho más simpleza que el anteriormente utilizado.
+ *
+ * */
+
 fun main() {
     print("Ingrese un número: ")
     val dato1 = readLine()!!.toInt()

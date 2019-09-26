@@ -1,5 +1,16 @@
 package k_04_estructuraWhen
 
+/**
+ * @author Gustavo Lizárraga
+ * @date 26/09/2019
+ *
+ * También podemos simplificar mucho más los IFS con consultas directamente en la condición de
+ * validadción de la estructura when.
+ * Cabe mencionar que para el caso DEFAULT o por defecto de SWITCH en Java, acá se lo denota
+ * con la instrucción ELSE y lo que debe suceder cuando no se cumple ninguna de las anteriores condiciones.
+ *
+ * */
+
 fun main() {
     print("Ingrese coordenada x del punto: ")
     val x = readLine()!!.toInt()

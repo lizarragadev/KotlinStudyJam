@@ -1,5 +1,15 @@
 package k_04_estructuraWhen
 
+/**
+ * @author Gustavo Lizárraga
+ * @date 26/09/2019
+ *
+ * También con la estructura WHEN podemos mencionar si la variable de ingreso
+ * a dicha estructura es alguna de las de la condición, como muestra el
+ * siguiente ejemplo.
+ *
+ * */
+
 fun main() {
     var cant1_3 = 0
     var cant2_4 = 0
