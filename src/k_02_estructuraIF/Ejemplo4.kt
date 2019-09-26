@@ -1,5 +1,13 @@
 package k_02_estructuraIF
 
+/**
+ * @author Gustavo Lizárraga
+ * @date 26/09/2019
+ *
+ * Ejercicio aplicando lectura de datos de teclado, if else y operadores matemáticos.
+ *
+ * */
+
 fun main() {
     print("Ingrese el primer valor: ")
     val valor1 = readLine()!!.toInt()

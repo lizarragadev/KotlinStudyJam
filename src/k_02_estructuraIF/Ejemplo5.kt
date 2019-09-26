@@ -1,5 +1,13 @@
 package k_02_estructuraIF
 
+/**
+ * @author Gustavo Lizárraga
+ * @date 26/09/2019
+ *
+ * Ejercicio manejando IF INLINE
+ *
+ * */
+
 fun main() {
     print("Ingrese primer valor: ")
     val valor1 = readLine()!!.toInt()
