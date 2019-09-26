@@ -1,5 +1,13 @@
 package k_08_funLocalesExpresLambda
 
+/**
+ * @author Gustavo Lizárraga
+ * @date 26/09/2019
+ *
+ * Una función local es aquella función que se crea dentro de otra función, y esa
+ * función se lo crea en formato función en línea.
+ *
+ * */
 fun multiplos2y5() {
 
     fun multiplo(numero: Int, valor: Int) = numero % valor == 0

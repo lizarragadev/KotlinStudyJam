@@ -2,6 +2,14 @@ package k_08_funLocalesExpresLambda
 
 import kotlin.math.pow
 
+/**
+ * @author Gustavo Lizárraga
+ * @date 26/09/2019
+ *
+ *  Ejemplo de fusión de expresión Lambda con Función de orden superior.
+ *
+ * */
+
 fun operarLamb(v1: Int, v2: Int, fn: (Int, Int) -> Int) : Int{
     return fn(v1, v2)
 }

@@ -1,7 +1,17 @@
 package k_08_funLocalesExpresLambda
 
-// Confeccionar una función que permita cargar dos enteros y nos muestre el mayor de ellos. Realizar esta actividad con 5 pares de valores.
-//Implementar una función interna que retorne el mayor de dos enteros.
+/**
+ * @author Gustavo Lizárraga
+ * @date 26/09/2019
+ *
+ * Las funciones locales al igual que las variables locales y globales, en este caso
+ * solo pueden ser accedidas dentro de la función que se haya creado.
+ *
+ * Confeccionar una función que permita cargar dos enteros y nos muestre el mayor de ellos.
+ * Realizar esta actividad con 5 pares de valores.
+ * Implementar una función interna que retorne el mayor de dos enteros.
+ *
+ * */
 
 fun mostrarMayor() {
     fun mayor (x1: Int, x2: Int) = if (x1 > x2) x1 else x2

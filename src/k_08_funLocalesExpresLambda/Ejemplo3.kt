@@ -1,6 +1,14 @@
 package k_08_funLocalesExpresLambda
 
-// Funcion de orden superior
+/**
+ * @author Gustavo Lizárraga
+ * @date 26/09/2019
+ *
+ *  Funciones de orden superior.
+ *  Las funciones de orden superior son aquellas funciones que reciben como argumento
+ *  a otra función
+ *
+ * */
 
 fun operar(v1: Int, v2: Int, fn: (Int, Int) -> Int) : Int {
     return fn(v1, v2)
