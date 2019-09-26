@@ -1,5 +1,15 @@
 package k_03_rangos
 
+/**
+ * @author Gustavo Lizárraga
+ * @date 26/09/2019
+ *
+ * En los rangos también se puede realizar una búsqueda de algun caracter
+ * simplement utilizando la instrucción IN con el cuál preguntamos
+ * SI la letras B se encuentra en o IN el lote de datos que le enviamos.
+ *
+ * */
+
 fun main() {
     val rangoCarac = 'a'..'z'
     val letraABuscar = 'B'
