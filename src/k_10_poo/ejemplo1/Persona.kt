@@ -1,22 +1,22 @@
 package k_10_poo.ejemplo1
 
 class Persona {
-    var nombre: String = ""
-    var edad: Int = 0
+    var nombre = ""
+    var edad = 0
 
-    fun inicializar(nombre: String, edad: Int) {
-        this.nombre = nombre
-        this.edad = edad
+    fun inicializar(n: String, e: Int) {
+        this.nombre = n
+        this.edad = e
     }
 
     fun imprimir() {
-        println("Nombre: $nombre y tiene una edad de $edad")
+        println("Nombre: $nombre - Edad: $edad")
     }
 
-    fun esMayorEdad() {
-        if (edad >= 18)
-            println("Es mayor de edad $nombre")
+    fun esMayorDeEdad() {
+        if(edad >= 18)
+            println("Es mayor de edad.")
         else
-            println("No es mayor de edad $nombre")
+            println("No es mayor de edad.")
     }
 }

@@ -5,23 +5,21 @@ package k_09_arrayYColecciones
 //1) Imprimir en forma completa el diccionario
 //2) Mostrar la cantidad de artículos con precio superior a 20.
 
-fun imprimir(productos: Map<String, Float>) {
-    for((clave, valor) in productos)
-        println("$clave tiene un precio $valor")
-    println();
-}
-
-fun cantidadPrecioMayor20(productos: Map<String, Float>) {
-    val cant = productos.count{ it.value > 20}
-    println("Cantidad de productos con un precio superior a 20: $cant")
-}
-
 fun main() {
-    val productos: Map<String, Float> = mapOf("papas" to 12.5f,
-        "manzanas" to 26f,
-        "peras" to 31f,
-        "mandarinas" to 15f,
-        "pomelos" to 28f)
-    imprimir(productos)
-    cantidadPrecioMayor20(productos)
+    val producto = mutableMapOf(
+        "papas" to 22.5f,
+        "manzanas" to 3.5f,
+        "mandarinas" to 5f,
+        "pomelos" to 27.5f)
+    imprimirMap(producto)
+    cantidadPrecioMayor20(producto)
+}
+
+fun imprimirMap(prod: Map<String, Float>) {
+    prod.forEach { println("${it.key} tiene un precio de ${it.value}") }
+}
+
+fun cantidadPrecioMayor20(prod: Map<String, Float>) {
+    val cant = prod.count { it.value > 20 }
+    println("Cantidad de productos con precio superior a 20: $cant")
 }

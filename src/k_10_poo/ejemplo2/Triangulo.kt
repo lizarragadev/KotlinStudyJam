@@ -1,21 +1,17 @@
 package k_10_poo.ejemplo2
 
 class Triangulo {
-    var lado1: Int = 0
-    var lado2: Int = 0
-    var lado3: Int =0
+    var lado1 = 0
+    var lado2 = 0
+    var lado3 = 0
 
     fun inicializar() {
-        print("Ingrese lado 1:")
-        lado1 = readLine()!!.toInt()
-        print("Ingrese lado 2:")
-        lado2 = readLine()!!.toInt()
-        print("Ingrese lado 3:")
-        lado3 = readLine()!!.toInt()
+        this.lado1 = readLine()!!.toInt()
+        this.lado2 = readLine()!!.toInt()
+        this.lado3 = readLine()!!.toInt()
     }
 
     fun ladoMayor() {
-        print("Lado mayor:")
         when {
             lado1 > lado2 && lado1 > lado3 -> println(lado1)
             lado2 > lado3 -> println(lado2)
@@ -24,9 +20,9 @@ class Triangulo {
     }
 
     fun esEquilatero() {
-        if (lado1 == lado2 && lado1 == lado3)
-            print("Es un triángulo equilátero")
+        if(lado1 == lado2 && lado1 == lado3)
+            print("El triangulo es equilatero")
         else
-            print("No es un triángulo equilátero")
+            print("El triangulo NO es equilatero")
     }
 }
