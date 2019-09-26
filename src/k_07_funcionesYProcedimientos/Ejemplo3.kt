@@ -1,9 +1,18 @@
 package k_07_funcionesYProcedimientos
 
-//Ingresar 1 dato entero de teclado (el lado de un cuadrado),
-//E ingresar el texto ["perimetro" o "superficie"] y validarlo con la
-//estructura WHEN para sacar alguno de los dos valores utilizando
-//procedimientos (perimetro: lado * 4 , superficie: lado * lado)
+/**
+ * @author Gustavo Lizárraga
+ * @date 26/09/2019
+ *
+ * Creación de procedimientos y llamados desde una estructura WHEN.
+ *
+ * Enunciado del ejercicio:
+ * Ingresar 1 dato entero de teclado (el lado de un cuadrado),
+ * E ingresar el texto ["perimetro" o "superficie"] y validarlo con la
+ * estructura WHEN para sacar alguno de los dos valores utilizando
+ * procedimientos (perimetro: lado * 4 , superficie: lado * lado)
+ *
+ * */
 
 fun main() {
     print("Ingrese el valor de un lado del cuadrado: ")

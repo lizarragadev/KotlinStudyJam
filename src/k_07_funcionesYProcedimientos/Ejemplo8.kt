@@ -1,6 +1,15 @@
 package k_07_funcionesYProcedimientos
 
-// Ingresar dos valores de teclado y verificar el mayor de ellos
+/**
+ * @author Gustavo Lizárraga
+ * @date 26/09/2019
+ *
+ * Ejemplo de funciones en línea utilizando IF INLINE
+ *
+ * Ingresar dos valores de teclado y verificar el mayor de ellos
+ *
+ * */
+
 fun main() {
     print("Ingrese numero 1: ")
     val nume1 = readLine()!!.toInt()

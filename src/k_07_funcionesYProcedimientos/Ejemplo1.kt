@@ -1,5 +1,16 @@
 package k_07_funcionesYProcedimientos
 
+/**
+ * @author Gustavo Lizárraga
+ * @date 26/09/2019
+ *
+ * Creación de procedimientos.
+ * Para la creación de un procedimiento (que no devuelve un valor) necesitamos
+ * anteceder la palabra reservada FUN antes del nombre y los argumentos
+ * ingresan en el siguiente formato: nombreVariable: TipoDeDato, ...
+ *
+ * */
+
 fun main() {
     mostrarMensaje("El programa realiza la suma de dos numeros")
     cargarSuma()

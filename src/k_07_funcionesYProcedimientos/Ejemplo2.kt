@@ -1,5 +1,13 @@
 package k_07_funcionesYProcedimientos
 
+/**
+ * @author Gustavo Lizárraga
+ * @date 26/09/2019
+ *
+ * Ejemplo de creación de procedimiento con IF INLINE internos.
+ *
+ * */
+
 fun main() {
     print("Ingrese numero 1: ")
     val num1 = readLine()!!.toInt()

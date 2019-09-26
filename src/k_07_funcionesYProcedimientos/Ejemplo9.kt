@@ -1,7 +1,14 @@
 package k_07_funcionesYProcedimientos
 
-// Convertir a literal los numeros del 1 al 10 con
-// funciones en linea.
+/**
+ * @author Gustavo Lizárraga
+ * @date 26/09/2019
+ *
+ * Ejemplo de funciones en línea utilizando WHEN
+ *
+ * Convertir a literal los numeros del 1 al 10 con funciones en linea.
+ *
+ * */
 
 fun main() {
     for (i in 1..10)
