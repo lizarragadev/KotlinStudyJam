@@ -1,11 +1,16 @@
 package k_10_poo.ejemplo2
 
+/**
+ * @author Gustavo Lizárraga
+ * @date 26/09/2019
+ *
+ * Como se puede ver acá, solamente creamos el objeto de esa forma.
+ *
+ * */
+
 fun main() {
     val triangulo1 = Triangulo()
-    //Pedir datos de teclado
     triangulo1.inicializar()
-    //Imprimir el lado mayor del triangulo
     triangulo1.ladoMayor()
-    // Verificar si el triangulo es equilatero
     triangulo1.esEquilatero()
 }

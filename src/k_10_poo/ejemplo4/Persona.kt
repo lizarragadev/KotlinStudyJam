@@ -1,5 +1,15 @@
 package k_10_poo.ejemplo4
 
+/**
+ * @author Gustavo Lizárraga
+ * @date 26/09/2019
+ *
+ * Una forma para poder crear un constructor con argumentos es colocar
+ * la palabra reservada ´constructor´ despues del nombre de la clase y seguido
+ * de paréntesis colocar los atributos de ingreso a la clase.
+ *
+ * */
+
 class Persona constructor(nombre: String, edad: Int) {
     var nombre: String = nombre
     var edad: Int = edad

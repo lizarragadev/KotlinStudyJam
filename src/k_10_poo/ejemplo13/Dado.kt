@@ -1,5 +1,13 @@
 package k_10_poo.ejemplo13
 
+/**
+ * @author Gustavo Lizárraga
+ * @date 26/09/2019
+ *
+ * Ejercicio utilizando SETs
+ *
+ * */
+
 class Dado(valor: Int){
     var valor: Int = 1
         set(valor) {

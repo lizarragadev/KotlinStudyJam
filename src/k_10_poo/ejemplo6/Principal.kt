@@ -1,5 +1,14 @@
 package k_10_poo.ejemplo6
 
+/**
+ * @author Gustavo Lizárraga
+ * @date 26/09/2019
+ *
+ * Si vemos acá, en ningún lugar llamamos a la instrucción init,
+ * ya que se ejecuta automáticamente con el objeto.
+ *
+ * */
+
 fun main() {
     val p1 = Persona("Gustavo", 28)
     p1.imprimePersona()

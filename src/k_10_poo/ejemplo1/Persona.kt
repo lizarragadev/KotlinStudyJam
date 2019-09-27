@@ -1,5 +1,15 @@
 package k_10_poo.ejemplo1
 
+/**
+ * @author Gustavo Lizárraga
+ * @date 26/09/2019
+ *
+ * Para crear un objeto en Kotlin, solamente es necesario declarar
+ * las variables o atributos que tendrá y si es necesario crear
+ * las funciones y/o procedimientos que creas necesario.
+ *
+ * */
+
 class Persona {
     var nombre = ""
     var edad = 0

@@ -1,5 +1,15 @@
 package k_10_poo.ejemplo1
 
+/**
+ * @author Gustavo Lizárraga
+ * @date 26/09/2019
+ *
+ * A diferencia de Java, en Kotlin no es necesario colocar la palabra reservada 'new' para crear
+ * una instancia de un objeto, solamente llamar al objeto y enviarle sus atributos como
+ * argumentos.
+ *
+ * */
+
 fun main() {
     val persona1 = Persona()
     persona1.inicializar("Gustavo", 28)

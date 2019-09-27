@@ -1,11 +1,24 @@
 package k_10_poo.ejemplo12
 
+/**
+ * @author Gustavo Lizárraga
+ * @date 26/09/2019
+ *
+ * Y como vemos, no es necesario llamar a los getters y setters
+ * ya que implícitamente se están ejecutando.
+ *
+ * */
+
 fun main() {
-    val persona1 = Persona()
-    persona1.nombre = "juan"
-    persona1.edad = 23
-    println(persona1.nombre)
-    println(persona1.edad)
-    persona1.edad = -50
-    println(persona1.edad)
+    val persona = Persona()
+    persona.nombre = "gustavo"
+    persona.edad = -2
+    println(persona.nombre)
+    println(persona.edad)
+
+    val persona2 = Persona()
+    persona2.nombre = "josue"
+    persona2.edad = 20
+    println(persona2.nombre)
+    println(persona2.edad)
 }

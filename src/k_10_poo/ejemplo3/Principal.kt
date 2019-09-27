@@ -1,5 +1,13 @@
 package k_10_poo.ejemplo3
 
+/**
+ * @author Gustavo Lizárraga
+ * @date 26/09/2019
+ *
+ * Como se puede ver acá, solamente creamos el objeto de esa forma.
+ *
+ * */
+
 fun main() {
     val alumno1 = Alumno()
     alumno1.inicializar()

@@ -1,5 +1,13 @@
 package k_10_poo.ejemplo7
 
+/**
+ * @author Gustavo Lizárraga
+ * @date 26/09/2019
+ *
+ * Ejercicio de creación del objeto Triángulo con un constructor con tres argumentos
+ *
+ * */
+
 class Triangulo (var lado1: Int, var lado2: Int, var lado3: Int){
 
     fun ladoMayor() {

@@ -1,5 +1,15 @@
 package k_10_poo.ejemplo9
 
+/**
+ * @author Gustavo Lizárraga
+ * @date 26/09/2019
+ *
+ * Para poder crear un objeto dentro de un objeto, solamente es necesario
+ * crear la instancia del objeto principal y asignarlo como variable del
+ * objeto de objetos.
+ *
+ * */
+
 class Banco {
     val cliente1: Cliente = Cliente("Juan", 0f)
     var cliente2: Cliente = Cliente("Ana", 0f)

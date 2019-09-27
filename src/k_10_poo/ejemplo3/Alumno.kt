@@ -1,5 +1,15 @@
 package k_10_poo.ejemplo3
 
+/**
+ * @author Gustavo Lizárraga
+ * @date 26/09/2019
+ *
+ * Si creamos un objeto de la siguiente forma, solamente tenemos un
+ * constructor sin argumentos por defecto, es decir que no podremos
+ * crear el objeto enviándole atributos a través de su constructor.
+ *
+ * */
+
 class Alumno {
     var nombre: String = ""
     var nota: Int = 0

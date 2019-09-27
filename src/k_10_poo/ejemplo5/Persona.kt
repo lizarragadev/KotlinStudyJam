@@ -1,5 +1,17 @@
 package k_10_poo.ejemplo5
 
+/**
+ * @author Gustavo Lizárraga
+ * @date 26/09/2019
+ *
+ * Otra forma de poder crear un constructor con varios argumentos,
+ * es crear el objeto de la siguiente forma, enviandole entre paréntesis los atributos
+ * que tendrá y creando el constructor que tendrá por defecto.
+ * Cabe recalcar que de ésta forma se están realizando dos acciones en una:
+ * Crear el objeto con sus atributos y crear un contructor con dos argumentos.
+ *
+ * */
+
 class Persona (var nombre: String, var edad: Int) {
 
     fun imprimir() {

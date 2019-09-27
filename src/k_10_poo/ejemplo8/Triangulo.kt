@@ -1,5 +1,16 @@
 package k_10_poo.ejemplo8
 
+/**
+ * @author Gustavo Lizárraga
+ * @date 26/09/2019
+ *
+ * Ahora, en el caso que usted necesite tener no solo un constructor,
+ * sino dos o más, se puede crear de la siguiente manera.
+ * Utilizando la instrucción constructor juntamente con this y los argumentos que
+ * tendrá ese constructor.
+ *
+ * */
+
 class Triangulo(var lado1: Int, var lado2: Int, var lado3: Int) {
 
     constructor():this(0,0,0) {
