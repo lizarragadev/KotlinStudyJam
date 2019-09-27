@@ -1,5 +1,14 @@
 package k_12_enum_classes.ejemplo2
 
+/**
+ * @author Gustavo Lizárraga
+ * @date 26/09/2019
+ *
+ * Los ENUMS pueden ser llamados las veces que se necesite y desde donde ustedes
+ * lo requieran, verán que son muy útiles a medida que avancen en Kotlin.
+ *
+ * */
+
 class Operacion(val valor1: Int, val valor2: Int, val tipoOperacion: TipoOperacion) {
     fun operar() {
         var resultado = 0

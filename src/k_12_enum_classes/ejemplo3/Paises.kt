@@ -1,5 +1,17 @@
 package k_12_enum_classes.ejemplo3
 
+/**
+ * @author Gustavo Lizárraga
+ * @date 26/09/2019
+ *
+ * Asi como pueden haber pares de datos en un enum, de igual forma
+ * podemos almacenar muchas más variables las cuales nos serán
+ * muy útiles para distintas cosas, la forma de hacerlo es colocar
+ * como argumento del enum las variables que ustedes vean conveniente
+ * separados por comas.
+ *
+ * */
+
 enum class Paises (val habitantes: Int) {
     BRASIL (202450649),
     COLOMBIA (50364000),
