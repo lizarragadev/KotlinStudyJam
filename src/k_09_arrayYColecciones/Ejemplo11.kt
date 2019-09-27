@@ -1,5 +1,16 @@
 package k_09_arrayYColecciones
 
+/**
+ * @author Gustavo Lizárraga
+ * @date 26/09/2019
+ *
+ * Creación de Maps mutables en Kotlin.
+ * También en lugar de utilizar el objeto Pair para crear un par de datos,
+ * podemos utilizar la instrucción ´to´ el cuál será quién separa el primer
+ * dato del segundo.
+ *
+ * */
+
 fun main() {
     val conjunto = mutableSetOf(2, 4, 8, 1, 5, 2)
     println(conjunto)

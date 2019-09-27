@@ -1,5 +1,15 @@
 package k_09_arrayYColecciones
 
+/**
+ * @author Gustavo Lizárraga
+ * @date 26/09/2019
+ *
+ * Creación de Listas mutables en Kotlin.
+ * Para poder crear listas mutables en Kotlin utilizamos la colección mutableListOf,
+ * con la cuál podemos crear una lista que se pueda modificar en la ejecución del programa.
+ *
+ * */
+
 fun main() {
     val edades: MutableList<Int> = mutableListOf(23, 67, 12, 35, 12)
     println("Lista de edades")

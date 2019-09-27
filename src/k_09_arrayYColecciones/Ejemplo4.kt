@@ -1,11 +1,19 @@
 package k_09_arrayYColecciones
 
+/**
+ * @author Gustavo Lizárraga
+ * @date 26/09/2019
+ *
+ * Para utilizar IntArray en funciones la forma de retorno de una función será
+ * como se ve en el ejemplo
+ *
+ * */
+
 fun main() {
     val sueldos = cargar()
     imprimir(sueldos)
 
     sueldos.forEach { print("[$it] ") }
-
 }
 
 fun cargar(): IntArray {

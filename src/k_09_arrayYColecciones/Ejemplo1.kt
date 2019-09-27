@@ -1,5 +1,14 @@
 package k_09_arrayYColecciones
 
+/**
+ * @author Gustavo Lizárraga
+ * @date 26/09/2019
+ *
+ *  Una colección es una estructura encargada de almacenar información,
+ *  existen varios tipos de colecciones como ser: IntArray, DoubleArray, etc
+ *
+ * */
+
 fun main() {
     val sueldos = IntArray(5)
     for(i in 0..4) {

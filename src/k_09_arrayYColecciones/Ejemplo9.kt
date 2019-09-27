@@ -1,5 +1,17 @@
 package k_09_arrayYColecciones
 
+/**
+ * @author Gustavo Lizárraga
+ * @date 26/09/2019
+ *
+ * Creación de Maps inmutables en Kotlin.
+ * Un par nada más es una colección que almacena un par de datos,
+ * Ese par de datos se los crea con el objeto Pair, dentro podemos almacenar
+ * cualquier tipo de dato, pero siempre se lo llamará a traves de la
+ * clave que tiene el cuál es el primer elemento.
+ *
+ * */
+
 fun main() {
     val paises = mapOf(
                     Pair("argentina", 4000),

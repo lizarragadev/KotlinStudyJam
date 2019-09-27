@@ -1,5 +1,15 @@
 package k_09_arrayYColecciones
 
+/**
+ * @author Gustavo Lizárraga
+ * @date 26/09/2019
+ *
+ * Creación de matrices en Kotlin
+ * Para manejar matrices en Kotlin debemos crear un arrayOf con vectores y cada vector
+ * simboliza una fila de la matriz.
+ *
+ * */
+
 fun main() {
     val rows = 2
     val columns = 3

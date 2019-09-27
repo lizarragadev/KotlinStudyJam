@@ -1,10 +1,16 @@
 package k_09_arrayYColecciones
 
-fun main() {
-    //List, MutableList
-    //Map, MutableMap
-    //Set, MutableSet
+/**
+ * @author Gustavo Lizárraga
+ * @date 26/09/2019
+ *
+ * Creación de Listas inmutables en Kotlin.
+ * Para el manejo de listas en Kotlin utilizamos la colección listOf el cuál devuelve un objeto de tipo: List
+ * el cuál es un objeto inmutable, es decir que no podemos modificar nada del mismo.
+ *
+ * */
 
+fun main() {
     var lista1 = listOf("lunes", "martes", "miercoles", "jueves", "viernes", "sábado", "domingo")
     println("Imprimir la lista completa")
     println(lista1)

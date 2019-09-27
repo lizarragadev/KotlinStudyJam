@@ -1,6 +1,14 @@
 package k_09_arrayYColecciones
 
-//Cargar un arreglo de n elementos. Imprimir el menor elemento y un mensaje si se repite dentro del arreglo.
+/**
+ * @author Gustavo Lizárraga
+ * @date 26/09/2019
+ *
+ * Ejercicio aplicando IntArray
+ *
+ *  Cargar un arreglo de n elementos. Imprimir el menor elemento y un mensaje si se repite dentro del arreglo.
+ *
+ * */
 
 fun main() {
     var arreglo = cargar2()

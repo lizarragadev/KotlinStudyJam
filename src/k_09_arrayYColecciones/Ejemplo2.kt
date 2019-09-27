@@ -1,5 +1,13 @@
 package k_09_arrayYColecciones
 
+/**
+ * @author Gustavo Lizárraga
+ * @date 26/09/2019
+ *
+ *  Ejemplo de uso de FloatArray en Coleccion inmutable.
+ *
+ * */
+
 fun main() {
     val alturas = FloatArray(5)
     var suma = 0F

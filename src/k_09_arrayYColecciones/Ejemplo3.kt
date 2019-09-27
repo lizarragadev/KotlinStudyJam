@@ -1,5 +1,13 @@
 package k_09_arrayYColecciones
 
+/**
+ * @author Gustavo Lizárraga
+ * @date 26/09/2019
+ *
+ *  Para poder recorrer un IntArray en un for utilizamos la instrucción coleccion.indices
+ *
+ * */
+
 fun main() {
     val arreglo = IntArray(10)
     for(i in arreglo.indices) {

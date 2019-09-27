@@ -1,9 +1,21 @@
 package k_09_arrayYColecciones
 
-// Crear un mapa que permita almacenar 5 artículos, utilizar como clave el nombre de productos y como valor el precio del mismo.
-//Desarrollar además las funciones de:
-//1) Imprimir en forma completa el diccionario
-//2) Mostrar la cantidad de artículos con precio superior a 20.
+/**
+ * @author Gustavo Lizárraga
+ * @date 26/09/2019
+ *
+ * Creación de Maps mutables en Kotlin.
+ * También en lugar de utilizar el objeto Pair para crear un par de datos,
+ * podemos utilizar la instrucción ´to´ el cuál será quién separa el primer
+ * dato del segundo.
+ *
+ * Ejercicio:
+ * Crear un mapa que permita almacenar 5 artículos, utilizar como clave el nombre
+ * de productos y como valor el precio del mismo. Desarrollar además las funciones de:
+ * 1) Imprimir en forma completa el diccionario
+ * 2) Mostrar la cantidad de artículos con precio superior a 20.
+ *
+ * */
 
 fun main() {
     val producto = mutableMapOf(
