@@ -1,25 +1,17 @@
 package k_11_data_classes.ejemplo1
 
-fun main() {
-    val articulo1 = Articulo(1, "papas", 34f)
-    var articulo2 = Articulo(2, "manzanas", 24f)
-    println(articulo1)
-    println(articulo2)
-    val puntero = articulo1
-    puntero.precio = 100f
-    println(articulo1)
-    var articulo3 = articulo1.copy()
-    articulo1.precio = 200f
-    println(articulo1)
-    println(articulo3)
-    if (articulo1 == articulo3)
-        println("Son iguales $articulo1 y $articulo3")
-    else
-        println("Son distintos $articulo1 y $articulo3")
-    articulo3.precio = 200f
-    if (articulo1 == articulo3)
-        println("Son iguales $articulo1 y $articulo3")
-    else
-        println("Son distintos $articulo1 y $articulo3")
+/**
+ * @author Gustavo Lizárraga
+ * @date 26/09/2019
+ *
+ * La forma de creación del Data Class es la misma que para un
+ * objeto común y corriente.
+ *
+ * */
 
+fun main() {
+    var art1 = Articulo(1, "Monitor", 4000F)
+    var art2 = Articulo(2, "Mouse", 90F)
+    println(art1)
+    println(art2)
 }

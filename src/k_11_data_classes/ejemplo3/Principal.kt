@@ -1,5 +1,14 @@
 package k_11_data_classes.ejemplo3
 
+/**
+ * @author Gustavo Lizárraga
+ * @date 26/09/2019
+ *
+ * Y Como pueden ver, no es necesario llamar a la función toString,
+ * se encuentra implícitamente en la impresión del objeto.
+ *
+ * */
+
 fun main() {
     val dado1 = Dado(4)
     val dado2 = Dado(6)
