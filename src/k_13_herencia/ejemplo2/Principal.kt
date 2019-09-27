@@ -1,5 +1,13 @@
 package k_13_herencia.ejemplo2
 
+/**
+ * @author Gustavo Lizárraga
+ * @date 26/09/2019
+ *
+ * Prueba de funcionamiento de las dos clases una con herencia.
+ *
+ * */
+
 fun main() {
     println("Prueba de la clase Calculadora (suma de dos números)")
     val calculadora1 = Calculadora(10.0, 2.0)

@@ -1,12 +1,20 @@
 package k_13_herencia.ejemplo1
 
-fun main() {
-    val persona1 = Persona("Gustavo", 28)
-    println("Datos de la persona")
-    persona1.imprimir()
+/**
+ * @author Gustavo Lizárraga
+ * @date 26/09/2019
+ *
+ * Y si realizamos una prueba, podemos percatarnos que no
+ * podremos acceder a las variables y/o funciones que no hayamos
+ * colocado la palabra OPEN.
+ *
+ * */
 
-    val empleado1 = Empleado("Cecilia", 39, 5000.0)
-    println("Datos del empleado")
-    empleado1.imprimir()
-    empleado1.pagaImpuestos()
+fun main() {
+    val p1 = Persona("Gustavo", 28)
+    p1.imprimir()
+
+    val e1 = Empleado("Josue", 23, 2500)
+    e1.imprimir()
+    e1.pagaImpuestos()
 }

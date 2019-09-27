@@ -1,5 +1,15 @@
 package k_13_herencia.ejemplo2
 
+/**
+ * @author Gustavo Lizárraga
+ * @date 26/09/2019
+ *
+ * Como ya vimos, colocamos la instrucción OPEN al principio
+ * de la declaración de la clase y las funciones que necesitamos
+ * que sean heredables.
+ *
+ * */
+
 open class Calculadora(val valor1: Double, val valor2: Double ){
     var resultado: Double = 0.0
     fun sumar() {
