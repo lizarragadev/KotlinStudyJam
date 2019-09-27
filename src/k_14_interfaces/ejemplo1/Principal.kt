@@ -1,5 +1,16 @@
 package k_14_interfaces.ejemplo1
 
+/**
+ * @author Gustavo Lizárraga
+ * @date 26/09/2019
+ *
+ * Como podemos ver, los objetos PuntoPlano y PuntoEspacio
+ * tienen en común una función llamada imprimir, pero si vemos
+ * en cada clase, la funcionalidad de ´imprimir´ es distinta
+ * para cada caso.
+ *
+ * */
+
 fun main() {
     val puntoPlano1 = PuntoPlano(10, 4)
     puntoPlano1.imprimir()
