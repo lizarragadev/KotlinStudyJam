@@ -13,5 +13,4 @@ fun main() {
     avi.volar()
     val hel = Helicoptero(10)
     hel.volar()
-
 }
