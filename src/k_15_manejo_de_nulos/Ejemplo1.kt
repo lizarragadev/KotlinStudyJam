@@ -1,32 +1,46 @@
 package k_15_manejo_de_nulos
 
+/**
+ * @author Gustavo Lizárraga
+ * @date 26/09/2019
+ *
+ * Manejo de nulos.
+ *
+ * 1. Por defecto en Kotlin no existen nulos mientras no se diga lo contrario.
+ * 2. Para dar soporte a nulos debemos colocar el operador ? después de la declaración del tipo
+ * de dato de una variable. Pero en ese momento se generarán muchos problemas
+ * por el hecho que debemos consultar en todos los casos que necesitemos utilizar esa variable
+ * si es nulo o no.
+ * 3. La opción más segura es utilizar el modifcador de acceso ?.  el cuál se lo coloca
+ * luego de la llamada a una variable que soporte nulos. Lo que hará es que mientras no
+ * sea nulo realizará las acciones para las cuáles se los programó y si llega a ser nulo
+ * simplemente no hará nada.
+ * 4. Para dar una acción más por si llega a ser nulo podemos utilizar el operador ELVIS  ?:
+ * el cuál es como un IF ELSE que si llega a ser nulo pues podemos asignarle otra acción que
+ * deba realizar en ese caso y ésta es la forma más segura de controlar los nulos en Kotlin.
+ * 5. También tenemos una salida rápida y es colocar el operador !! con el cuál le decimos que
+ * no importa que sea nulo, que haga prioridad que la aplicación funcione.
+ *
+ * */
+
 fun main() {
-    //Si queremos que una variable acepte nulos debemos colocar el operador ? al tipo de dato:
     var nombre: String?
     nombre = null
 
-    // A partir de que le colocamos el operador ? empiezan los problemas porque Kotlin no nos dejará compilar
-    // nuestro código a no ser que validemos que realmente no sea nulo determinada variable. (En timpo de compilación).
-    val x: Int? = null
-    if (x != null) {
+    var x: Int? = null
+    if(x != null) {
         val y = x.toDouble()
+    } else {
+        val y = 0.0
     }
 
     // Expresion de acceso seguro
     val y = x?.toDouble()
-    print(y)
 
-    // Pero si no queremos tener una variable Nullable utilizamos el operador ELVIS ?:
+    // Operador ELVIS  ?:
     val y1 = x?.toDouble() ?: 0.0
-    // Seria equivalente a escribir:
-    // val y = if (x != null) {
-    //    x.toDouble()
-    //} else {
-    //    0.0
-    //}
 
-    // Evitando el chequeo de null   !! ( mala práctica )
-    val x2: Int? = null
-    val y2 = x2!!.toDouble()
+    // !! (mala practica)
+    val y2 = x!!.toDouble()
 
 }
